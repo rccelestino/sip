@@ -3,7 +3,7 @@
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-    <property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1:1433;databaseName=Corpore</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1:1433;databaseName=Sip</property>
     <property name="hibernate.connection.username">rm</property>
     <property name="hibernate.connection.password">rm</property>
   </session-factory>
