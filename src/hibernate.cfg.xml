@@ -3,8 +3,8 @@
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-    <property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1:1433;databaseName=Sip</property>
-    <property name="hibernate.connection.username">rm</property>
-    <property name="hibernate.connection.password">rm</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://127.0.0.1:1433;databaseName=SIP</property>
+    <property name="hibernate.connection.username">sa</property>
+    <property name="hibernate.connection.password">cdlfor2</property>
   </session-factory>
 </hibernate-configuration>
