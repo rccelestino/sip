@@ -40,8 +40,7 @@ public class Pessoa implements Serializable {
     @Column(name = "SITUACAO", length = 1, nullable = false)
     private String Situacao;
     
-    @Column(name = "ORIGEM", length = 20, nullable = false)
+    @Column(name = "ORIGEM", length = 20, nullable = true)
     private String Origem;
-    
     
 }
